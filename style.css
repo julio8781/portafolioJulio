@@ -468,6 +468,19 @@ html{
     position: relative;
     bottom: 4px;
 }
+
+button a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del elemento padre (en este caso, el botón) */
+   
+    padding: 10px 20px; /* Ajusta el padding para que se vea bien dentro del botón */
+    
+    color: white; /* Color del texto del botón */
+    border-radius: 5px; /* Opcional: da bordes redondeados al botón */
+}
+
+
+
 /* SECCION PORTFOLIO */
 .portfolio{
     background-color: #252A2E;
