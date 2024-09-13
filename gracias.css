@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(160, 17, 17, 0.1);
+}
+
+h1 {
+    color: #000702;
+}
+
+p {
+    color: #666;
+    margin: 20px 0;
+}
+
+.gracias-image {
+    max-width: 30%;
+    height: auto;
+    margin: 20px 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
